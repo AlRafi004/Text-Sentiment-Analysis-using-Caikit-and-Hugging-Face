@@ -2,11 +2,13 @@
 
 # Text Sentiment Analysis using Caikit and Hugging Face
 
+<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+
 </div>
 
 ## Overview
 
-Proyek ini mengimplementasikan aplikasi analisis sentimen teks menggunakan Caikit dan Hugging Face. Aplikasi ini memungkinkan pengguna untuk melakukan analisis sentimen pada sampel teks, memberikan wawasan tentang nada emosional konten (positif, negatif, atau netral).
+Proyek ini mengimplementasikan aplikasi analisis sentimen teks menggunakan Caikit dan Hugging Face. Hal ini memungkinkan pengguna untuk melakukan analisis sentimen pada sampel teks, memberikan wawasan tentang nada emosional konten (positif atau negatif).
 
 ## Table of Contents
 
