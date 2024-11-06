@@ -8,7 +8,7 @@
 
 ## Overview
 
-Proyek ini mengimplementasikan analisis sentimen teks menggunakan Caikit dan Hugging Face. Hal ini memungkinkan pengguna untuk melakukan analisis sentimen pada sampel teks, memberikan wawasan tentang nada emosional konten (positif atau negatif).
+Proyek ini mengimplementasikan analisis sentimen teks menggunakan Caikit dan Hugging Face. Hal ini memungkinkan pengguna untuk melakukan analisis sentimen pada sampel teks dan memberikan wawasan tentang nada emosional konten (positif atau negatif).
 
 ## Table of Contents
 
