@@ -55,21 +55,21 @@ To set up the project locally, follow these steps:
 ## Project Structure
 
 ```bash
-text-sentiment/                     # Top-level package directory
-    ├── start_runtime.py            # Wrapper to start the Caikit runtime as a gRPC server
-    ├── client.py                    # Client to call the Caikit runtime for inference
-    ├── requirements.txt             # Specifies library dependencies
-    ├── models/                      # Directory containing Caikit model metadata and artifacts
-    │   └── text_sentiment/config.yml # Metadata defining the Caikit text sentiment model
-    └── text_sentiment/              # Directory defining Caikit module(s)
-        ├── config.yml               # Configuration for the module and model input/output
-        ├── __init__.py              # Makes the data_model and runtime_model packages visible
-        ├── data_model/               # Directory for the Caikit data model
+text-sentiment/                        # Top-level package directory
+    ├── start_runtime.py               # Wrapper to start the Caikit runtime as a gRPC server
+    ├── client.py                      # Client to call the Caikit runtime for inference
+    ├── requirements.txt               # Specifies library dependencies
+    ├── models/                        # Directory containing Caikit model metadata and artifacts
+    │   └── text_sentiment/config.yml  # Metadata defining the Caikit text sentiment model
+    └── text_sentiment/                # Directory defining Caikit module(s)
+        ├── config.yml                 # Configuration for the module and model input/output
+        ├── __init__.py                # Makes the data_model and runtime_model packages visible
+        ├── data_model/                # Directory for the Caikit data model
         │   ├── classification.py      # Data class representing AI model attributes
-        │   └── __init__.py           # Makes the data model class visible
-        └── runtime_model/            # Directory for the Caikit model wrapper
-            ├── hf_module.py          # Class to bootstrap the AI model in Caikit
-            └── __init__.py           # Makes the module class visible
+        │   └── __init__.py            # Makes the data model class visible
+        └── runtime_model/             # Directory for the Caikit model wrapper
+            ├── hf_module.py           # Class to bootstrap the AI model in Caikit
+            └── __init__.py            # Makes the module class visible
 
 ```
 
