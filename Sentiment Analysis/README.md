@@ -1,8 +1,11 @@
+<div align="center">
+
 # Text Sentiment Analysis using Caikit and Hugging Face
 
-## Overview
-
 This project implements text sentiment analysis using Caikit and Hugging Face. This allows users to perform sentiment analysis on text samples and provides insight into the emotional tone of the content (positive or negative).
+
+============================================================================================
+</div>
 
 ## Table of Contents
 
