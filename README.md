@@ -17,7 +17,7 @@ This project implements text sentiment analysis using Caikit and Hugging Face. T
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
-- [License](#license)
+- [Explanation Continued](#explanation-continued)
 
 ✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦
 
@@ -95,26 +95,8 @@ text-sentiment/                        # Top-level package directory
 
 ✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦
 
-## License
+## Explanation Continued
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+For further explanation is located in the README.md file inside the Analysis Sentiment file.
 
 ✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✧✦✦✧✦✧✦✧✦✧✦✧✦✧✦
-
-### Instructions to Add the README
-
-1. Create a file named `README.md` in the root of your project directory:
-
-   ```bash
-   touch README.md
-
-2. Open the README.md file in a text editor and copy-paste the above content into it.
-
-3. Save the file.
-
-4. Finally, commit the changes and push them to your GitHub repository:
-
-   ```bash
-   git add README.md
-   git commit -m "Add README file for Text Sentiment Analysis project"
-   git push
