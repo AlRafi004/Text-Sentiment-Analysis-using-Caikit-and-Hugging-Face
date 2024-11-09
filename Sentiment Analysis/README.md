@@ -27,16 +27,36 @@ This project implements text sentiment analysis using Caikit and Hugging Face. T
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/AlRafi004/Text-Sentiment-Analysis-using-Caikit-and-Hugging-Face.git
-   cd Text-Sentiment-Analysis-using-Caikit-and-Hugging-Face
-
-2. Install the required dependencies:
+1. Step 0: Install Caikit runtime
    
-   ```bash
-   pip install -r requirements.txt
+   Install virtualenv for our Python requirements
+   ``` bash
+   pip install --user virtualenv
+
+2. Step 1: Create the project
+
+   Run the following commands create a new project and Python package:
+   ``` bash
+   mkdir -p /home/project/text-sentiment/text_sentiment
+   cd /home/project/text-sentiment/text_sentiment
+   ```
+   Note: The text_sentiment package name must use an underscore (_), not a dash (-) for importing packages.
+
+ 3. Step 2: Create the data model specification
+    
+    Run the following commands to create a data_model directory to store the data model:
+    ``` bash
+    mkdir data_model
+    cd data_model
+    ```
+    Note: The Caikit runtime default data model specification package name is data_model in the root package directory.
+
+    In the data_model directory, create a classification.py file by clicking the Open button below and copy the following code in it and save the file:
+    ``` bash
+    
+ 
+   
+
 
 ## Usage
 
